@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El mosaico de la plaza</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #111111;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .portada {
+    background: #ffffff;
+    color: #111111;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+  }
+  .portada h1 { color: #0a3d7a; font-size: 32px; margin-bottom: 15px; }
+  .portada p { font-size: 16px; margin: 5px 0; }
+  .pagina {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 25px;
+  }
+  .pagina h2 {
+    color: #2a7ae2;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+  .pagina p {
+    color: #f5f5f5;
+    margin-bottom: 15px;
+    font-size: 17px;
+  }
+  .formula {
+    background: #222222;
+    border-left: 4px solid #2a7ae2;
+    padding: 12px;
+    margin: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  footer {
+    text-align: center;
+    background: #ffffff;
+    color: #111111;
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    padding: 15px;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="portada">
+  <h1>El mosaico de la plaza</h1>
+  <p><b>Trinomio cuadrado perfecto</b></p>
+  <p>Creador: ChatGPT (IA)</p>
+</div>
+
+<div class="pagina">
+  <h2>Página 1. Una plaza para todos</h2>
+  <p>En el barrio de Camila se decidió renovar una pequeña plaza. Los vecinos querían colocar un mosaico cuadrado en el centro, con diseños geométricos que representaran la unión de la comunidad.</p>
+  <p>Camila, que participaba en el club de ciencias, ayudó a calcular el área del diseño. En el plano encontró una expresión: x² + 10x + 25. El encargado de la obra le preguntó si podía escribirla como el cuadrado de una sola expresión para comprender mejor las medidas.</p>
+  <p>Camila recordó que en clase habían estudiado el trinomio cuadrado perfecto. Para saber si ese era el caso, debía revisar el primer término, el último y el término del medio. No quiso adivinar: decidió comprobar cada condición.</p>
+</div>
+
+<div class="pagina">
+  <h2>Página 2. Reconocen el patrón</h2>
+  <p>Camila observó que x² es el cuadrado de x y que 25 es el cuadrado de 5. Después comprobó el término del medio: debía ser el doble del producto de las raíces cuadradas del primer y tercer término.</p>
+  <p>Calculó: 2 × x × 5 = 10x. Como el resultado coincidía con el término central de la expresión, confirmó que era un trinomio cuadrado perfecto.</p>
+  <p>La regla que aplicó fue:</p>
+  <div class="formula">a² + 2ab + b² = (a + b)²</div>
+  <p>En este ejemplo, a = x y b = 5. Por eso, la factorización sería (x + 5)². Camila explicó que las tres partes debían coincidir con la regla para poder usar este caso.</p>
+</div>
+
+<div class="pagina">
+  <h2>Página 3. Factorizan el trinomio</h2>
+  <p>Camila escribió el procedimiento en su cuaderno:</p>
+  <div class="formula">x² + 10x + 25 = x² + 2(x)(5) + 5² = (x + 5)²</div>
+  <p>Para comprobarlo, multiplicó el binomio por sí mismo:</p>
+  <div class="formula">(x + 5)(x + 5) = x² + 5x + 5x + 25 = x² + 10x + 25</div>
+  <p>La expresión obtenida fue igual a la original. Así supo que la factorización era correcta.</p>
+  <p>Su compañero Diego preguntó por qué no se podía escribir simplemente (x + 25)². Camila le explicó que el último término debe ser la raíz cuadrada de 25, que es 5, y que el término central debe ser el doble del producto. La comprobación evitó confusiones.</p>
+</div>
+
+<div class="pagina">
+  <h2>Página 4. Calculan el área</h2>
+  <p>Para el diseño final, los vecinos eligieron x = 4 metros. La medida del lado del mosaico sería x + 5, es decir, 4 + 5 = 9 metros.</p>
+  <p>Como el mosaico era cuadrado, su área se calculaba multiplicando lado por lado: 9 × 9 = 81 metros cuadrados.</p>
+  <p>También comprobaron usando la expresión original:</p>
+  <div class="formula">x² + 10x + 25 = 4² + 10(4) + 25 = 16 + 40 + 25 = 81</div>
+  <p>Y con la forma factorizada:</p>
+  <div class="formula">(x + 5)² = (4 + 5)² = 9² = 81</div>
+  <p>Ambos procedimientos dieron el mismo resultado. El equipo pudo entregar las medidas necesarias para preparar el mosaico y calcular los materiales.</p>
+</div>
+
+<div class="pagina">
+  <h2>Página 5. El diseño terminado</h2>
+  <p>Después de varios días de trabajo, el mosaico quedó instalado en el centro de la plaza. Los vecinos reconocieron el esfuerzo de los jóvenes y Camila explicó cómo una expresión algebraica les había ayudado a calcular el área.</p>
+  <p>Recordó que para reconocer un trinomio cuadrado perfecto se necesita que el primer y el último término sean cuadrados perfectos, y que el término central sea el doble producto de sus raíces. En este caso:</p>
+  <div class="formula">x² + 10x + 25 = (x + 5)²</div>
+  <p>Diego concluyó que factorizar no era solamente cambiar la forma de una expresión, sino descubrir una estructura que podía representar una situación real. La plaza quedó como un lugar para reunirse y el mosaico se convirtió en el símbolo del trabajo en equipo.</p>
+  <p><b>Fin.</b> <b>Creador: ChatGPT (IA).</b></p>
+</div>
+
+<footer>Historia educativa original creada por ChatGPT (IA).</footer>
+
+</body>
+</html>
